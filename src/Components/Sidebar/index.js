@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {SidebarWrapper,SearchWrapper,SearchInput, SearchButtonWrapper,SearchButton} from './SidebarComponents'
 
-export const Sidebar = () => {
+export const Sidebar = (props) => {
   return (
     <SidebarWrapper>
       <SearchWrapper>
