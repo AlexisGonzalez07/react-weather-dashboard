@@ -21,7 +21,14 @@ export default function CityProvider({ children }) {
     fetchCity(cities.currentcity);
   };
   // Function to fetch API
-  const fetchCity = (cities) => {};
+  const fetchCity = async (term) => {
+      try {
+          
+      } catch (error) {
+          
+      }
+
+  };
 
   // Function to add pastCities array
 
